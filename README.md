@@ -2,7 +2,7 @@
 
 This project demonstrates the **simulation of a Line Following Robot** using **Arduino UNO** and **Proteus 8 Professional**. The robot uses **IR sensors** to detect a black line on a surface and adjusts its movement using a **motor driver module**.
 
-The simulation is built entirely in Proteus, and the control logic is written in Arduino's C-based language. This project is useful for learning how real-world line-following robots function using sensor-based input and motor control.
+The simulation is built entirely in Proteus, and the control logic is written in Arduino C++. This project is useful for learning how real-world line-following robots operate using sensor input and motor control logic.
 
 ---
 
@@ -32,7 +32,7 @@ To simulate an autonomous robot that follows a predefined black path using IR se
 ## 📂 Files in this Repository
 
 - `line_follower_code.ino`  
-  → Arduino sketch with the code to control the robot behavior based on IR sensor input.
+  →  Contains the Arduino C++ code that controls the robot's movement based on IR sensor input.
 
 - `linefollowingsimulation.pdsprj`  
   → Main Proteus simulation project file. Open this in Proteus to view and run the circuit.
